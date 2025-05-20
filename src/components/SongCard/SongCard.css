@@ -1,0 +1,30 @@
+.song-card {
+  display: flex;
+  align-items: flex-start;
+  background: #23272f;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 1.5rem;
+  margin: 1rem 0;
+  gap: 2rem;
+  max-width: 600px;
+  width: 100%;
+}
+
+.song-cover {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.song-info {
+  flex: 1;
+  text-align: left;
+}
+
+.song-info h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+}
